@@ -1,12 +1,32 @@
 # Site settings
-title: Swift makes me happy
-email: ever8greener@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Anything will be posted here when it comes to SWIFT development. I am currently working on a musical application. code snippets, libraries, extensions and tutorials.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: ever8green
-github_username:  hallomuze
+# title: Swift makes me happy
+# email: ever8greener@gmail.com
+# description: > # this means to ignore newlines until "baseurl:"
+#   Anything will be posted here when it comes to SWIFT development. I am currently working on a musical application. code snippets, libraries, extensions and tutorials.
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: ever8green
+# github_username:  ever8green
 
-# Build settings
-markdown: kramdown
+# # Build settings
+# markdown: kramdown
+
+# minimal_mistakes_skin : "dirt"
+
+
+remote_theme             : "mmistakes/minimal-mistakes"
+
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en-US"
+title                    : "all the beaties"
+title_separator          : "-"
+name                     : &name "Muzna" # &name is a YAML anchor which can be *referenced later
+description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
+url                      : https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
+repository               : "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
